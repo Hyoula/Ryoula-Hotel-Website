@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryoula-Hotel | Home</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body id="main">
+    <div class="top"></div>
+    <div class="mb-4" style="margin-top: -85vh;">
+        <div>
+            <div id="clearHeader" class="navbar">
+                <div class="navbar-brand mx-auto" href="#">
+                    <img src="ai/logoo.png">
+                </div>
+                <nav class="navbar-expand-lg navbar-dark" style="padding-left: 70px;">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" onclick="openNav()" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <h1 class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent" style="color:rgb(218, 141, 0); font-family: Monotype Corsiva;">Ryoula Hotel</h1>
+                    <div class="collapse navbar-collapse mx-auto mt-2" id="navbarSupportedContent">
+                        <ul class="navbar-nav text-center " style="margin-right: 500px;margin-left: 375px;font-weight: 600;">
+                            <li class="nav-item active col-3">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item col-3">
+                                <a class="nav-link" href="page.html">Page</a>
+                            </li>
+                            <li class="nav-item col-3">
+                                <a class="nav-link" href="news.html">News</a>
+                            </li>
+                            <li class="nav-item col-3">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item col-4">
+                                <a class="nav-link " href="about.html">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="position: absolute;right: 0;top: 215px;">
+                        <button type="button" class="btn btn-warning collapse navbar-collapse" id="navbarSupportedContent" style="padding: 10px; border-radius: 0%;font-size: 20px;font-weight: 600; color: white;">Book Online</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <span class="d-md-block" style="position: relative;top: -15px;">
+         <div class="enjoy mx-auto text-center">
+           Enjoy Your Tour
+         </div>
+         <h4 class="h4 d-block mx-auto text-center d-fix">Ingin liburan anda dan keluarga menyenangkan?<br>Buat keluarga anda bahagia dengan service dan layanan kami <br>dan dapatkan diskon spesial dari kami.</h4>
+         
+         </span>
+    </div>
+
+    <div class="form-book">
+        <form>
+            <div class="form-row mx-6">
+                <div class="col mt-2">
+                    <label for="">Check In :</label>
+                    <input type="date" class="form-control" style="width: 12rem;">
+                </div>
+                <div class="col mt-2 mr-4">
+                    <label for="">Check Out :</label>
+                    <input type="date" class="form-control" style="width: 12rem;">
+                </div>
+                <div class="col mt-2">
+                    <label for="">Adult :</label>
+                    <input type="number" class="form-control" style="width: 9rem;" placeholder="Adult">
+                </div>
+                <div class="col mt-2" style="margin-left: -4vw;">
+                    <label for="">Children :</label>
+                    <input type="number" class="form-control" style="width: 9rem;" placeholder="Children">
+                </div>
+                <div class="col mt-4">
+                    <button class="btn btn-warning form-control" style="color: white; border-radius: 0; width: 15rem; height: 9vh; font-size: 3vh; font-weight: bold;" type="submit">Book Now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- <div class="about"></div>
+    <div class="bout mb-4">
+        <span class="d-md-block" style="position: relative;top: -65px;">
+        <span id="bayang-bout" class="d-block mx-auto text-center d-fix">Info</span>
+        <span id="about-us" class=" d-block mx-auto text-center d-fix">About Us</span>
+        <h6 id="h6" class="d-block mx-auto text-justify d-fix px-4">
+            Ryoula Hotel adalah hotel bintang lima yang bertempat di Jl. Sri Ayu No.1 Denpasar-Bali, Indonesia yang dimiliki Ryoula Hotel ini. Dengan Pemeandangan Alamnya yang langsung disuguhkan semilir ombak biru.Keindahan alamnya yang sempurna ini membuat pengembangan
+            Ryoula Hotel semakin mudah dan sukses dalam berbagai wilayah karena Ryoula Hotel sangat menjunjung tinggi kekayaan alamnya.
+        </h6>
+        </span>
+    </div> -->
+    <div class="about">
+        <div class="bout">
+            <span class="d-md-block" style="position: relative;top: -65px;">
+        <span id="bayang-bout" class="d-block mx-auto text-center d-fix">Info</span>
+            <span id="about-us" class=" d-block mx-auto text-center d-fix">About Us</span>
+            <h6 id="h6" class="d-block mx-auto text-justify d-fix px-4">
+                Ryoula Hotel adalah hotel bintang lima yang bertempat di Jl. Sri Ayu No.1 Denpasar-Bali, Indonesia yang dimiliki Ryoula Hotel ini. Dengan Pemeandangan Alamnya yang langsung disuguhkan semilir ombak biru.Keindahan alamnya yang sempurna ini membuat pengembangan
+                Ryoula Hotel semakin mudah dan sukses dalam berbagai wilayah karena Ryoula Hotel sangat menjunjung tinggi kekayaan alamnya.
+            </h6>
+            </span>
+        </div>
+    </div>
+
+    <span class="d-md-block py-5" style="margin-bottom: 15rem;position: relative;background-color: rgba(248, 248, 248, 0.733);">
+            <span id="bayang-room" class=" d-block mx-auto text-center d-fix">Our Rooms</span>
+    <span id="our-room" class=" d-block mx-auto text-center d-fix">Our Rooms</span>
+    </span>
+    <div class="room">
+        <div class="row balkon" style="margin-bottom: 20vw">
+            <img id="b-img" src="img/para-003-3.jpg" style="margin-bottom: 40rem; margin-top: -15rem; margin-left: 700px; position: relative;left:-700px ; height: auto;width: 50vw;filter:saturate(1.5);" alt="">
+            <div id="t-balkon" class="w-auto ml-auto bd-highlight">
+                <a class="" style="font-family: Brush Script Std; margin-left: -20px; font-weight: bolder; font-size: 4vw;color: rgba(228, 122, 0, 0.164);">SPECIAL ROOM</a>
+                <h3 style="margin-top: -40px; font-weight: bolder;color: rgb(59, 59, 59);">VVIP BALCONY</h3>
+                <h6 style="font-family:Adobe Devanagari; margin-top: 20px; font-weight: 400; color: rgb(112, 112, 112); width: 75vmin;" class="d-block mx-auto d-fix">Ryoula Hotel adalah hotel bintang lima yang bertempat di Jl. Sri Ayu No.1 Denpasar-Bali, Indonesia yang dimiliki Ryoula Hotel ini. Dengan Pemeandangan Alamnya yang langsung disuguhkan semilir ombak biru.Keindahan alamnya yang sempurna ini
+                    membuat pengembangan Ryoula Hotel semakin mudah dan sukses dalam berbagai wilayah karena Ryoula Hotel sangat menjunjung tinggi kekayaan alamnya.</h6>
+                <a class="learn">
+                    <button type="button" class="btn mt-5 px-4" style="margin-bottom: 90px;">Learn More</button>
+                </a>
+            </div>
+        </div>
+        <div class="row pool" style="margin-bottom: -90vw;">
+            <img id="p-img" src="img/para-006-2.jpg" style="margin-top: -57.1em;margin-bottom: 68rem; margin-right: 669px; position: relative;right:-669px ; height: 63vw;width: 55vw;filter:saturate(1.5);" alt="">
+            <div id="t-pool" class="w-auto mr-auto bd-highlight text-right">
+                <a class="" style="font-family: Brush Script Std; margin-right: -20px; font-weight: bolder; font-size: 4vw;color: rgba(228, 122, 0, 0.164);">SPECIAL ROOM</a>
+                <h3 style="margin-top: -40px; font-weight: bolder;color: rgb(59, 59, 59);">VVIP POOL</h3>
+                <!-- <h6 style="margin-top: 20px; font-weight: 700; color: rgb(59, 59, 59);">Lorem iqua. Ut enim ad minim veniam, quis nostrud.</h6> -->
+                <h6 style="font-family:Adobe Devanagari; margin-top: 20px; font-weight: 400; color: rgb(112, 112, 112); width: 75vmin;" class=" d-block mx-auto d-fix">Ryoula Hotel adalah hotel bintang lima yang bertempat di Jl. Sri Ayu No.1 Denpasar-Bali, Indonesia yang dimiliki Ryoula Hotel ini. Dengan Pemeandangan Alamnya yang langsung disuguhkan semilir ombak biru.Keindahan alamnya yang sempurna ini
+                    membuat pengembangan Ryoula Hotel semakin mudah dan sukses dalam berbagai wilayah karena Ryoula Hotel sangat menjunjung tinggi kekayaan alamnya.</h6>
+                <a class="learn">
+                    <button type="button" class="btn mt-5 px-4" style="margin-bottom: -5rem;">Learn More</button>
+                </a>
+            </div>
+        </div>
+        <a id="view" href="page.html" class="d-flex justify-content-center" style="text-decoration: none;">
+            <button type="button" class="btn px-4">View More <b class="ml-1">-></b></button>
+        </a>
+        <div class="row d-flex justify-content-center mt-2" style="color: rgb(75, 75, 75);">
+            <div id="room-card" class="card mx-4 mb-3" style="width: 23rem;">
+                <img src="img/para-007-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title" style="font-weight: 680;">Sweat Balcony</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div id="room-card1" class="card mx-4 mb-3" style="width: 23rem;">
+                <img src="img/room01-1024x664.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-titler" style="font-weight: 680;">Bed Room</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div id="room-card2" class="card mx-4 mb-3" style="width: 23rem;">
+                <img src="img/para-001-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title" style="font-weight: 680;">Parties Pool</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="justify-content-center mx-auto my-5">
+            <div id="news" class="mx-auto border-0 pt-3" style="max-width: 1200px;">
+                <div class="row no-gutters">
+                    <div class="col-sm-5 mx-2 my-2">
+                        <img src="img/para-003-1.jpg" class="card-img mb-3 ;" style="border-radius: 5px;">
+                    </div>
+                    <div class="col-md-5 mx-2 my-2 p-4">
+                        <a id="bayang-new" style=" font-family: Adobe Devanagari; font-weight: bolder; font-size: 25px;color: rgb(228, 122, 0);">Latest News</a>
+                        <hr id="hr-new">
+                        <h2 style=" font-weight: bolder;color: rgb(59, 59, 59);margin-top: -10px;">EARLY BIRD OFFER</h2>
+
+                        <h6 #new style="font-family:Adobe Devanagari; margin-top: 20px; font-weight: 400; color: rgb(112, 112, 112); width: 75vmin;" class="d-block mx-auto">Ryoula Hotel berencana untuk meningkatkan kemegahannya dengan membangun wisata di pesisir pantai yang membuat para wisatawan dapat menikmati semilir anging tepat di pinggir pantai. Wisatawan juga akan dlayani dengan sangat baik.</h6>
+                        <a id="newss">
+                            <button type="button" class="btn mt-5 px-4">Learn More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="foot ">
+            <div class="footer">
+                <div class="row d-flex justify-content-center">
+                    <div class=" mb-3" style="width: 17rem;">
+                        <div class="card-body">
+                            <img src="ai/logoo.png" style="width: auto; height:290px; margin-top: -30px;margin-bottom: -50px;">
+                        </div>
+                    </div>
+                    <div class="mr-4 mb-3" style="width: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: 600;color: rgb(187, 187, 187);">Ryoula Hotel</h5>
+                            <hr style="background-color: rgba(168, 110, 1, 0.39);height: 1px;"><br>
+                            <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                    </div>
+                    <div class=" mr-4 mb-3" style="width: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: 600;color: rgb(187, 187, 187);">Useful Links</h5>
+                            <hr style="background-color: rgba(168, 110, 1, 0.39);height: 1px;"><br>
+                            <p class="card-text">Blog</p>
+                            <p class="card-text">Rooms</p>
+                            <p class="card-text">Gift Card</p>
+                            <p class="card-text">Booking</p>
+                        </div>
+                    </div>
+                    <div class=" mr-4 mb-3" style="width: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: 600;color: rgb(187, 187, 187);">Privacy</h5>
+                            <hr style="background-color: rgba(168, 110, 1, 0.39);height: 1px;"><br>
+                            <p class="card-text">Career</p>
+                            <p class="card-text">About Us</p>
+                            <p class="card-text">Contact Us</p>
+                            <p class="card-text">Services</p>
+                        </div>
+                    </div>
+                    <div class="mr-4 mb-3" style="width: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: 600;color: rgb(187, 187, 187);">Have a Quastion</h5>
+                            <hr style="background-color: rgba(168, 110, 1, 0.39);height: 1px;"><br>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr id="f-hr">
+                <p id="f-rani" class="text-center pb-2" style="color: rgba(255, 190, 71, 0.356);">Created by Maharani_</p>
+            </div>
+        </div>
+
+
+        <!------------------------------------------------------------------------------------------->
+
+
+        <a href="#mySidenav">
+            <div id="navbarr">
+                <div style=" background-color: #171126;height: 13vh;width: auto;padding-top: 5px;" onclick="openNav()">
+                    <span style="font-size:28px;color: white;"><div class="mx-1" style="margin-top: 50%;">&#9776;</div></span>
+                </div>
+            </div>
+        </a>
+        <div id="logo">
+            <div style="background-color: white;width: auto; height:13vh;">
+                <img src="ai/logoo.png" style="width: auto;height: 200px;margin: -18px;margin-top: -53px;">
+            </div>
+        </div>
+        <div id="book">
+            <a href="#">
+                <button class="btn btn-warning px-3" type="submit" style="width: auto; height:6vh;padding: 6px;border-radius: 5px;font-size: 20px;color:white;border: 0px;">
+                <span >Your Book</span>
+            </button>
+            </a>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <div class="hover">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            </div>
+            <a href="#">
+                <img src="ai/logoo.png" style="width: 180px; height:auto; margin-top: -50px; margin-bottom: -80px;">
+            </a>
+            <div class="hover">
+                <a class="active" href="home.html">HOME</a>
+                <a href="page.html">PAGE</a>
+                <a href="news.html">NEWS</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="about.html">ABOUT US</a>
+            </div>
+        </div>
+        <script src="js/home.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+</body>
+
+</html>

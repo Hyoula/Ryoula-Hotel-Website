@@ -1,0 +1,258 @@
+body {
+    overflow-x: hidden;
+}
+
+#navbarl {
+    position: fixed;
+    top: -110px;
+    display: block;
+    transition: top 0.3s;
+}
+
+#logol {
+    position: fixed;
+    top: -110px;
+    display: block;
+    transition: top 0.3s;
+    margin-left: 33px;
+}
+
+#bookl {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    display: block;
+    transition: right 0.3s;
+    margin-right: -130px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #171126;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+    font-family: Lucida Handwriting;
+}
+
+.sidenav a {
+    padding: 15px 15px 15px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .hover a:hover {
+    color: #c2c2c2;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+.sidenav .hover a:not(:disabled):not(.disabled):active,
+.sidenav .hover a:not(:disabled):not(.disabled).active {
+    color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#clearHeader {
+    height: auto;
+    background-color: #171126ea;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transition: ease all 1s;
+    -webkit-transition: ease all 1s;
+    -moz-transition: ease all 1s;
+    -o-transition: ease all 1s;
+    border-bottom: 3px solid #ffc107;
+}
+
+.form-book {
+    margin-top: -30px;
+    width: auto;
+    padding: 2rem;
+    position: sticky;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-row label {
+    color: #171126ea;
+}
+
+.form-row input {
+    background-color: rgba(231, 231, 231, 0.308);
+    border: 0;
+}
+
+.top {
+    background-image: url("../img/para-003.jpg");
+    background-size: cover;
+    height: 730px;
+    width: 1680px;
+    color: white;
+    filter: blur(4px) grayscale(0.1);
+    background-attachment: fixed;
+    margin-bottom: 200px;
+}
+
+.row .card img {
+    width: auto;
+    height: 450px;
+}
+
+.card {
+    border-radius: 0%;
+    border: 0;
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card .card-body {
+    padding: 60px;
+}
+
+.card h2 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+#view button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(228, 121, 0);
+    border-radius: 5px;
+    padding: 15px;
+    color: rgb(228, 121, 0);
+}
+
+#view button:hover {
+    color: white;
+    background-color: rgb(228, 121, 0);
+}
+
+#newss button {
+    color: white;
+    background-color: rgb(201, 107, 0);
+    border: 2px solid rgba(228, 122, 0, 0);
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+#newss button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(228, 121, 0);
+    border: 2px solid rgb(228, 122, 0);
+}
+
+.bulat {
+    border-radius: 100%;
+    border: 2px solid rgb(218, 141, 0);
+    color: rgb(218, 141, 0);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 15px;
+}
+
+#bayang-room {
+    font-size: 8vw;
+    font-family: Brush Script Std;
+    color: rgba(224, 146, 0, 0.075);
+    transition: top 0.5s;
+    position: relative;
+    top: -300px;
+}
+
+#our-room {
+    font-size: 64px;
+    font-family: Monotype Corsiva;
+    color: rgb(61, 61, 61);
+    margin-top: -100px;
+    transition: ease-in-out 1s;
+    position: relative;
+}
+
+.foot {
+    margin-top: 50px;
+    background-image: url("../img/para-006-3.jpg");
+    background-size: cover;
+    height: auto;
+    width: 99.4vw;
+    color: white;
+    background-attachment: fixed;
+}
+
+.foot .footer {
+    padding-top: 100px;
+    width: auto;
+    background-color: #171126fa;
+    padding-bottom: 0.3px;
+    border-top: 2.3px solid rgb(221, 144, 0);
+}
+
+.footer .row {
+    color: rgb(153, 153, 153);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -40px;
+}
+
+.footer #f-hr {
+    background-color: rgba(255, 255, 255, 0.288);
+    height: 0.5px;
+    width: 87%;
+}
+
+#room-card,
+#room-card2 {
+    transition: bottom 0.3s;
+    position: relative;
+}
+
+#room-card1,
+#room-card3 {
+    transition: bottom 0.6s;
+    position: relative;
+}
+
+#room-card4 {
+    transition: left 0.8s;
+    position: relative;
+}
+
+#room-card5 {
+    transition: right 0.8s;
+    position: relative;
+}
